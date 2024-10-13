@@ -1,5 +1,4 @@
 <?php
-
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -9,7 +8,15 @@ class Order extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['customer_id', 'service_id', 'order_date', 'status'];
+    protected $fillable = [
+        'customer_id',
+        'service_id',
+        'order_date',
+        'status',
+        'weight',
+        'price',
+        'date_taken'
+    ];
 
     public function customer()
     {
@@ -21,4 +28,3 @@ class Order extends Model
         return $this->belongsTo(Service::class);
     }
 }
-

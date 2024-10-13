@@ -24,7 +24,14 @@
 
     <label for="status">Status</label>
     <input type="text" name="status" required>
+    <label for="weight">Weight (kg)</label>
+<input type="number" step="0.01" name="weight" required>
 
+<label for="price">Price (RM)</label>
+<input type="number" step="0.01" name="price" required>
+
+<label for="date_taken">Date Taken</label>
+<input type="date" name="date_taken" required>
     <button type="submit">Create Order</button>
 </form>
 @endsection

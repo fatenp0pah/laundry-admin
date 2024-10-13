@@ -17,6 +17,9 @@ return new class extends Migration
             $table->foreignId('service_id')->constrained()->onDelete('cascade');
             $table->date('order_date');
             $table->string('status');
+            $table->string('weight');
+            $table->string('price');
+            $table->date('date_taken');
             $table->timestamps();
         });
     }

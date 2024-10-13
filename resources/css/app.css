@@ -72,3 +72,15 @@ footer {
             text-align: center;
             margin-top: 20px;
         }
+        .bg-laundry {
+            background-image: url('https://cdn.apartmenttherapy.info/image/upload/v1562684637/at/living/Celsious/_C4A3783_s.jpg');
+            background-size: cover; /* Makes the image cover the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    display: flex; /* To align the content inside */
+    justify-content: center; /* Centering content horizontally */
+    align-items: center; /* Centering content vertically */
+}
+        
